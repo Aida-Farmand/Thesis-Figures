@@ -9,7 +9,7 @@ set ytics nomirror
 set xlabel 'Years with the same employer' font ",16" 
 set ylabel '% Return to tenure' font ",16"
 
-set xrange [ 0 : 50 ]
+set xrange [ 0 : 30 ]
 #set yrange [ 30 : 42 ]
 set xtics 5 
 
@@ -18,7 +18,7 @@ set style line 2 linetype 1 linecolor rgb "black" lw 2.5 dashtype 3
 set style line 3 linetype 1 linecolor rgb "black" lw 2.5 dashtype 4
 set style line 4 linetype 1 linecolor rgb "black" lw 2.5 dashtype 6
 
-set key box linestyle 1 at 35,10 center reverse samplen 4 spacing 1 width -1  font ",16"
+set key box linestyle 1 at 22,10 center reverse samplen 4 spacing 1 width -1  font ",16"
 set key center
 
 

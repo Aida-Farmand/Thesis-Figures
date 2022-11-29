@@ -22,8 +22,8 @@ set style line 4 linetype 1 linecolor rgb "black" lw 1
 set style line 5 linetype 1 linecolor rgb "black" lw 2.5
 set style line 6 linetype 13 linecolor rgb "black" lw 3.5 dashtype 3
 
-set key box linestyle 4 at 2014,41 center reverse samplen 4 spacing 1 width -4  font ",16"
+set key box linestyle 4 at 2009,41 center reverse samplen 4 spacing 1 width -4  font ",16"
 set key center
 
-plot "wages.dta" using 1:2 smooth csplines with lines ls 5 title "Older workers" ,\
-     "wages.dta" using 1:3 smooth csplines with lines ls 6 title "Mid-career workers"
+plot "wages.dta" using 1:2 smooth csplines with lines ls 5 title "Male older workers with college degree" ,\
+     "wages.dta" using 1:3 smooth csplines with lines ls 6 title "Male mid-career workers with college degree"
